@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import {Poppins} from "next/font/google";
 import "./globals.css";
-import ResponseiveNav from "./data/components/Home/Navbar/ResponseiveNav";
+import ResponseiveNav from "../components/Home/Navbar/ResponseiveNav"
 const font = Poppins({
   weight: ['100','200','300','400','500','600','700','800','900',],
   subsets: ["latin"]
