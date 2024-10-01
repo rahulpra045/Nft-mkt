@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {Poppins} from "next/font/google";
 import "./globals.css";
 import ResponseiveNav from "../components/Home/Navbar/ResponseiveNav"
+import Footer from "@/components/Home/Footer/Footer";
 const font = Poppins({
   weight: ['100','200','300','400','500','600','700','800','900',],
   subsets: ["latin"]
@@ -25,6 +26,7 @@ export default function RootLayout({
       >
         <ResponseiveNav/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
