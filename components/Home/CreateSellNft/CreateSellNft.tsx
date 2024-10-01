@@ -9,16 +9,16 @@ const CreateSellNft = () => {
           </h1>
           <div className="w-[80%] mt-8 md:mt-16 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
                   {/* CreateSellNftCard */}
-              <div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <CreateSellNftCard image="/images/p1.png" title="1. Set up your wallet"/>
               </div>
-              <div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
                     <CreateSellNftCard image="/images/p2.png" title="2. Create your collection"/>
               </div>
-              <div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400">
                     <CreateSellNftCard image="/images/p3.png" title="3. Add your NFTs"/>
               </div>
-              <div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="600">
                     <CreateSellNftCard image="/images/p4.png" title="4. List them for sale"/>
               </div>
           </div>

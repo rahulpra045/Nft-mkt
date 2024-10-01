@@ -9,8 +9,12 @@ const HotBids = () => {
               Hot Bids
           </h1>
           <div className="w-4/5 mt-8 md:mt-16 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {HotBidData.map((data) => {
-                  return <div key={data.id}>
+              {HotBidData.map((data, index) => {
+                  return <div key={data.id}
+                      data-aos="fade-right"
+                      data-aos-anchor-placement="top-center"
+                      data-aos-delay={`${index * 200}`}
+                  >
                       {/* HotBidCard */}
                       <HotBidCard data={data}/>
               </div>
