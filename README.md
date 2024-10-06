@@ -17,18 +17,36 @@ This project is done in the next.js framework of javascript to showcase a simple
 You must have Node.js and NPM installed on your system.
 You should have some understanding of typescipt and next.js.
 
-## Installation:
+### Installation
 
-* Clone this repository to your local machine.
-* Open a terminal window and navigate to the project directory.
-* Install the required dependencies by running npm install.
-```shell
-npm install
-```
+1. Clone the repository:
 
-```shell
-npm run dev
-```
+    ```shell
+    git clone https://github.com/rahulpra045/Nft-mkt
+    ```
+
+2. Navigate to the project directory:
+
+    ```shell
+    cd your-repo-name
+    ```
+
+3. Install the dependencies:
+
+    ```shell
+    npm install
+    # or
+    yarn install
+    ```
+
+4. Run the development server:
+
+    ```shell
+    npm run dev
+    # or
+    yarn dev
+    ```
+
 
 
 ## Screenshots
