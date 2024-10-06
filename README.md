@@ -14,8 +14,8 @@ This project is done in the next.js framework of javascript to showcase a simple
 
 ## Prerequisites:
 
-You must have Node.js and NPM installed on your system.
-You should have some understanding of typescipt and next.js.
+- You must have Node.js and NPM installed on your system.
+- You should have some understanding of typescipt and next.js.
 
 ### Installation
 
