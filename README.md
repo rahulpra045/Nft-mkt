@@ -36,7 +36,7 @@ npm run dev
 ## Landing Section
 ![Screenshot (99)](https://github.com/user-attachments/assets/b23dd747-2a07-4112-aa61-52fffb619916)
 
-## Hot Bides
+## Hot Bids
 ![Screenshot (100)](https://github.com/user-attachments/assets/95f12342-6550-41a8-afe7-4081b7f8961b)
 
 ## Top Collections
